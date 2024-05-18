@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../css/common/card.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-wrap">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <!-- <div class="card"></div> -->
+        </div>
+    </div>
+
+    <script src="../js/card.js"></script>ㄴ
+    <script>
+        const cardEffect = cardUiEffect()
+        const cardWrap = document.querySelector('.card-wrap')
+        cardEffect.init(cardWrap, { toCenter: true })
+    </script>
+</body>
+
+</html>
